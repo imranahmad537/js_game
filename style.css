@@ -31,16 +31,30 @@ body{
     color: black;
     font-size: 50px;
     margin-top: 20%;
-   
+}
+.total2{
+    color: black;
+    font-size: 50px;
+    margin-top: 20%;
 }
 .current1{
     color: pink;
     background-color: brown;
     font-size: 20px;
     padding: 20px 60px;
-    margin-top: 30%;
+    margin-top: 10%;
 }
 .current1 h2{
+    margin-top: 25px;
+}
+.current2{
+    color: pink;
+    background-color: brown;
+    font-size: 20px;
+    padding: 20px 60px;
+    margin-top: 10%;
+}
+.current2 h2{
     margin-top: 25px;
 }
 
@@ -52,14 +66,20 @@ body{
     padding: 10px 20px;
     margin-top: 50px;
 }
+.new:hover{
+    cursor: pointer;
+}
 .roll{
-    position: absolute;
     z-index: 100;
     border-radius: 50px;
+    margin-top: 18px;
     background-color: white;
     padding: 10px 20px;
     align-items: end;
     top: 60%;
+}
+.roll:hover{
+    cursor: pointer;
 }
 .imge {
     position: absolute;
